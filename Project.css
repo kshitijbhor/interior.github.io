@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(228, 224, 228);
+    z-index: 3;
+}
+.wrapper .photo{
+    background: url(./Images/phpto1.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -140px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+.singleimg{
+    padding: 0 40px 40px;
+}
+img{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 270px;
+    /* transition: transform 2s; */
+}
+img:hover{
+    transform: scale(1.1);
+    opacity: .8;
+    transition: .9s;
+}
+

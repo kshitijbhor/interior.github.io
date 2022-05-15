@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <!-- Contact Section -->
+    <section id="Contact">
+        <div class="overlay-cnt"></div>
+        <div class="Contact-content">
+            <h2>Let's Connect</h2>
+            <p>We are here to make your space shine</p>
+        </div>
+        <div class="container-cnt">
+            <div class="contactInfo">
+                <div class="cnt-box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="contact-text">
+                        <h3>Address</h3>
+                        <p>531 Sugar Camp Road, <br>Donald street, Wajre <br>Pune 55060 </p>
+                    </div>
+                </div>
+                <div class="cnt-box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p>02405-230030</p>
+                        <p>+914735904865</p>
+                    </div>
+                </div>
+                <div class="cnt-box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>ambiance.homedecors@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="connect.php" method="POST">
+                    <h2>Send Message</h2>
+                    <div class="ip-box">
+                    <input type="text" name="name" required="required">
+                    <span>Name</span>
+                    </div>
+                    <div class="ip-box">
+                    <input type="email" name="mail" required="required">
+                    <span>Email</span>
+                    </div>
+                    <div class="ip-box">
+                    <textarea name="message" cols="21" rows="2" required="required"></textarea>
+                    <span>Type your message</span>
+                    </div>
+                    <div class="ip-box">
+                    <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

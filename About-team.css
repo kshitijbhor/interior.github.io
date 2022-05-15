@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.team-sect{
+    width: 100%;
+}
+.team-sect .team-container{
+    width: 80%;
+    margin: auto;
+}
+.team-sect .team-container .row{
+    width: 60%;
+    margin: auto;
+}
+.team-sect .team-container .row .team-title{
+   text-align: center;
+   margin-top: 50px;
+}
+.team-sect .team-container .row .team-title h1{
+   font-size: 35px;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   color: #eb6234;
+}
+.team-sect .team-container .row .team-title p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #332e2e;
+}
+.team-sect .team-container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+.team-sect .team-container .team-card .card{
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+.team-sect .team-container .team-card .card:hover{
+    background-color: #e4dcdc;
+    transition: 0.3s;
+}
+.team-sect .team-container .team-card .card .team-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+.team-sect .team-container .team-card .card .team-content{
+    width: 100%;
+    text-align: center;
+}
+.team-sect .team-container .team-card .card .team-content h3{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #639ab8;
+}
+.team-sect .team-container .team-card .card .team-content h4{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #332e2e;
+}
+.team-sect .team-container .team-card .card .team-content p{
+    font-size: 14px;
+    margin: 16px 0px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    color: #332e2e;
+}
+
+@media screen and (max-width: 900px){
+    .team-sect .team-container .team-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .team-sect .team-container .team-card{
+        grid-template-columns: 1fr;
+    }
+}
+
